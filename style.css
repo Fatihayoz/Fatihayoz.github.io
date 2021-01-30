@@ -1,0 +1,27 @@
+body {
+    background-color: darkolivegreen;
+}
+
+h1 {
+    color: ghostwhite;
+    text-align: center;
+}
+
+article {
+    float: left;
+    width: 60vw;
+    text-align: justify;
+
+}
+
+aside {
+    float: right;
+    width: 40vw;
+    text-align: justify;
+
+}
+
+footer {
+    width: 100vw;
+    text-align: center;
+}
