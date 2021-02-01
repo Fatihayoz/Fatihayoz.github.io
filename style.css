@@ -1,27 +1,56 @@
 body {
-    background-color: darkolivegreen;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  background-color: darkolivegreen;
+  background-image: url(assets/jungle.jpg);
 }
 
-h1 {
-    color: ghostwhite;
-    text-align: center;
+.logo {
+  float: left;
+  display: block;
+  margin: 0 auto;
+  width: 10rem;
 }
 
-article {
-    float: left;
-    width: 60vw;
-    text-align: justify;
+h1,
+h2,
+h3 {
+  color: ghostwhite;
+  text-align: center;
+}
 
+nav {
+  color: ghostwhite;
+  text-align: center;
+}
+
+a {
+  color: ghostwhite;
+}
+
+.first-article,
+.second-article {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  text-align: justify;
+}
+
+p {
+  color: rgb(241, 181, 181);
 }
 
 aside {
-    float: right;
-    width: 40vw;
-    text-align: justify;
-
+  float: right;
+  width: 30%;
+  padding: 10px;
+  text-align: justify;
+  position: absolute;
+  right: 40px;
+  top: 290px;
 }
 
 footer {
-    width: 100vw;
-    text-align: center;
+  width: 100vw;
+  text-align: center;
 }
